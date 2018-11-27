@@ -14,8 +14,7 @@ grep Assignment Answers
 
 7. grep -c '^B' cities.txt
 
---this only returns 8, even if non-case sensitive, only returns 12.
-8. egrep -c '(.*d){2}' cities.txt
+8. grep -o 'd' cities.txt | wc -l
 
 9. egrep '(.)\1+$' cities.txt
 
