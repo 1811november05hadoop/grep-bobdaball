@@ -1,11 +1,10 @@
-grep- Assignment Answers
+grep Assignment Answers
 
 1. grep \Z cities.txt
 
 2. grep gan$ cities.txt
 
 3. grep ^[ADE] cities.txt
-
 
 4. grep '\<.ar' cities.txt
 
